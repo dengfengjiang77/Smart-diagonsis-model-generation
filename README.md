@@ -1,6 +1,6 @@
 # Smart diagonsis model generation
  
-# Optimized Diagnosis (OD) Model for Cummins Digital
+# Optimized Diagnosis (OD) Model Generation
 
 ## Project Overview
 
