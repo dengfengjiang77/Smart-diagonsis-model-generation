@@ -36,3 +36,17 @@ We cover over 1000 failure diagnosis scenarios in engines. By leveraging telemat
 
 - Multiple diagnosis ML models
 - Potential diagnosis solution ranking
+
+
+
+## APPENDIX
+
+- Framework
+![alt text](image.png)
+
+- UI 
+![alt text](image-1.png)
+
+- Auto Report
+
+![alt text](image-2.png)
