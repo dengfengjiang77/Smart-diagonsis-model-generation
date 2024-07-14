@@ -1,0 +1,2 @@
+# Smart diagonsis model generation
+ 
