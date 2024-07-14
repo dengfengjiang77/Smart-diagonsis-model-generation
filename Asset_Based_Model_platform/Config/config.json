@@ -1,0 +1,51 @@
+{
+  "PLATFORM_LIST": [
+    "B6.2",
+    "D6.7",
+    "B6.7",
+    "L9",
+    "X11",
+    "12N",
+    "X12",
+    "X13",
+    "Z14",
+    "15N",
+    "X15N",
+    "M15",
+    "Z15",
+    "X15"
+  ],
+  "EMISSION_LEVEL_LIST": [
+    "NSVI",
+    "CSIV"
+  ],
+  "FAULT_CODES": ["1682","3574","4658","5914","6413"],
+  "EFPA_TABLE": "hive_metastore.tel_primary.tel_efpa_primary",
+  "TNF_PATH":"hive_metastore.od_report.tnf_template_use",
+  "BUILD_YEAR_LIST": ["2017 AND UP","2018 AND UP","2019 AND UP","2020 AND up","2021 AND UP","2022 AND UP","2023 AND UP","2024 AND UP"],
+  "UNCHANGED_FEATURE_LIST":["ESN","Occurrence_time","engine_model_group","Faultlist","Faultlist2"],
+  "EFPA_FEATURE_LIST": ["UL2ePRVOpenCount","DEFDoserPressMax","OBDCATSCOREOFMISFIRECYL1MAX","OBDCATSCOREOFMISFIRECYL2MAX","OBDCATSCOREOFMISFIRECYL3MAX","OBDCATSCOREOFMISFIRECYL4MAX","OBDCATSCOREOFMISFIRECYL5MAX","OBDCATSCOREOFMISFIRECYL6MAX","OBDCATTOTALSCOREOFMISFIREMAX","OBDSCOREOFMISFIRECYL1MAX","OBDSCOREOFMISFIRECYL2MAX","OBDSCOREOFMISFIRECYL3MAX","OBDSCOREOFMISFIRECYL4MAX","OBDSCOREOFMISFIRECYL5MAX","OBDSCOREOFMISFIRECYL6MAX","OBDTOTALSCOREOFMISFIREMAX","IGNCOILSECONDARYCURRENTCYL1MAX","IGNCOILSECONDARYCURRENTCYL2MAX","IGNCOILSECONDARYCURRENTCYL3MAX","IGNCOILSECONDARYCURRENTCYL4MAX","IGNCOILSECONDARYCURRENTCYL5MAX","IGNCOILSECONDARYCURRENTCYL6MAX"],
+  "EFPA_CLAIM_TABLE_PATH": "hive_metastore.od_feature.claim_failurepart_record",
+  "EFPA_DATA_PROCESS_TEMP_PATH": "confidential", 
+  "EFPA_AGG_TEMP_PATH": "confidential",
+  "TRAIN_TEST_SPLIT": 0.2,
+  "RANDOM_SEED": 42,
+  "EARLY_STOPPING": 100,
+  "MAX_DEPTH": 5,
+  "MAX_ITERATIONS": 1000,
+  "USER_INPUT_PATH": "/Workspace/Users/LH641@cummins.com/Global_OD/Asset_Based_Model_platform/Config/user_input.json",
+  "FEATURE_RANKING_PATH":"/Workspace/Users/LH641@cummins.com/report",
+  "MODEL_SELECTION_LIST": [
+    "XGBoost",
+    "Random_Forest"
+  ],
+  "RESULT_PATH": "/Workspace/Users/wwid@cummins.com/report",
+  "MODEL_TYPE_LIST": [
+    "Population_based_model",
+    "Asset_based_model",
+    "Symptom_based_model"
+  ],
+  "SYMPTOM_LIST": [
+    ""
+  ]
+}
