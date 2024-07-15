@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This machine learning project was developed during my tenure at Cummins Digital. We created a generative model for global teams, focusing on optimized diagnostic features. While some information is hidden due to parent protection policies, the core details adhere to our company's data protection guidelines.
+This machine learning project was developed during my tenure in Cummins Digital. We created a generative model for global teams, focusing on optimized diagnostic features. While some information is hidden due to parent protection policies, the core details adhere to our company's data protection guidelines.
 
 ## Problems Addressed
 
